@@ -3,6 +3,8 @@
 ## Introduction
 This document outlines the implementation of Biquadris, a game that is similar to Tetris and programmed in C++. It was developed in Fall 2019 for CS241, a group project of three at the University of Waterloo.
 
+![image](https://user-images.githubusercontent.com/45796479/119072343-4ef99580-b9b9-11eb-8a78-6aed4b901f29.png)
+
 ## Overview
 Our project can be divided into six main classes:
 Display: Renders each component of the game.
