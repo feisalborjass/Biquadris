@@ -1,6 +1,4 @@
-# Biquadris
-
-Biquadris Design Document
+# Biquadris Design Document
 
 ## Introduction
 This document outlines the implementation of Biquadris, a game that is similar to Tetris and programmed in C++.
@@ -120,8 +118,7 @@ To apply these features on the available shortcuts for existing command names, w
 
 ## Final Questions
 
-#### 1. What lessons did this project teach you about developing software in teams? If you
-worked alone, what lessons did you learn about writing large programs?
+#### 1. What lessons did this project teach you about developing software in teams? If you worked alone, what lessons did you learn about writing large programs?
 
 There are a few lessons we learned from working working on this project in teams:
 
