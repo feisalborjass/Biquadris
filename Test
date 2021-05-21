@@ -1,0 +1,19 @@
+int* Board::clearBlocks() {
+    int blocks_cleared = 0;
+    bool iscleared = false;
+    vector<int> level_vector;
+    for (auto &block: blocks) {
+        for (auto &square: block->squares) {
+            if (square) {
+                iscleared = false;
+                break;}
+            iscleared = true;
+        }
+        if (iscleared) {
+            level_vector.emplace_back(block.getLevel_generated);
+            block.~Block();
+            ++blocks_cleared;
+        }
+    }
+    return level_vector;
+}
