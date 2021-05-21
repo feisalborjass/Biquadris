@@ -1,7 +1,7 @@
 # Biquadris Design Document
 
 ## Introduction
-This document outlines the implementation of Biquadris, a game that is similar to Tetris and programmed in C++.
+This document outlines the implementation of Biquadris, a game that is similar to Tetris and programmed in C++. It was developed in Fall 2019 for CS241, a group project of three at the University of Waterloo.
 
 ## Overview
 Our project can be divided into six main classes:
